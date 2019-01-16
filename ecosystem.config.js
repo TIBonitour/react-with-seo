@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: 'Desenvolvedores',
-    script: 'app.js',
+    script: 'server/index.js',
     args: 'run start:production',
     instances: 1,
     autorestart: true,
