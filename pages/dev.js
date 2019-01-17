@@ -29,7 +29,7 @@ export default class User extends React.Component {
 
   onError(e) {
     e.target.onerror = null;
-    e.target.src="https:bonitour.com.br/assets/images/sem_imagem.jpg";
+    e.target.src="https://d159gdcp8gotlc.cloudfront.net/assets/images/sem_imagem.jpg";
   }
 
   render () {
@@ -57,7 +57,7 @@ export default class User extends React.Component {
             </Link>
             <div className="p">
               <div className="avatar">
-                <img onError={ this.onError } src={ "https:bonitour.com.br/assets/images/usuarios_fotos/" + this.props.user.arquivo_assinatura } alt={ this.props.user.nome } />
+                <img onError={ this.onError } src={ "https://d159gdcp8gotlc.cloudfront.net/assets/images/usuarios_fotos/" + this.props.user.arquivo_assinatura } alt={ this.props.user.nome } />
               </div>
               <p className="name">{ this.props.user.nome }</p>
               <p className="role">Email: { this.props.user.email }</p>
