@@ -19,7 +19,7 @@ module.exports = {
     },
     staging : {
       user : 'ubuntu',
-      host : '3.86.10.194',
+      host : '34.201.134.61',
       ref  : 'origin/master',
       repo : 'git@github.com:TIBonitour/react-with-seo.git',
       path : '/home/ubuntu/react-with-seo',
